@@ -23,3 +23,20 @@ Rocketseat
 - [X] Hospedando o app com Firebase;
 - [X] Conectando Firebase no React.
 </div>
+
+<div align="center">
+  <h2 align="center"
+  >
+   Aula 02 - Liftoff
+   </h2>
+  Conceitos abordados:
+
+- [X] Tela de autenticação;
+- [X] Tela de criação de sala;
+- [X] Reteamento e navegação;
+- [X] Autenticação com Firebase;
+- [X] Contextos no React ( Usando Hooks );
+- [X] Contexto de autenticação;
+- [X] Recuperar o estado de autenticação ( useEffect );
+- [X] Criando hook de autenticação.
+</div>
