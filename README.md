@@ -27,7 +27,7 @@ Rocketseat
 <div align="center">
   <h2 align="center"
   >
-   Aula 02 - Liftoff
+   Aula 02 - Maximum Speed
    </h2>
   Conceitos abordados:
 
@@ -39,4 +39,22 @@ Rocketseat
 - [X] Contexto de autenticação;
 - [X] Recuperar o estado de autenticação ( useEffect );
 - [X] Criando hook de autenticação.
+</div>
+
+
+<div align="center">
+  <h2 align="center"
+  >
+   Aula 03 - In Orbit
+   </h2>
+  Conceitos abordados:
+
+- [X] Criação de sala;
+- [X] Entrando na sala;
+- [X] Estipulando autorização;
+- [X] Página de sala;
+- [X] Criando nova Pergunta;
+- [X] Consumindo perguntas do Firebase;
+- [X] "Ouvindo" novas perguntas;
+- [ ] Criando hook "useRoom";
 </div>
