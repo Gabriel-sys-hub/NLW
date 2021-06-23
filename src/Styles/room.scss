@@ -28,7 +28,7 @@
       h1 {
         font-family: 'Poppins', sans-serif;
         font-size: 24px;
-        color: #29292e;
+        color: #f1f1f1;
       }
 
       span {
@@ -72,7 +72,7 @@
 
           span {
             margin-left: 8px;
-            color: #29292e;
+            color: #a0a0a0;
             font-weight: 500;
             font-size: 14px;
           }
@@ -80,7 +80,7 @@
 
         > span {
           font-size: 14px;
-          color: #737380;
+          color: #ffffff;
           font-weight: 500;
 
           button {
@@ -101,20 +101,28 @@
       margin: 20px;
 
       .question-container {
-        border: solid 1px rgba(128, 128, 128, 0.294);
+        border: solid 1px rgba(250, 250, 250, 0.294);
         border-radius: 5px;
         margin: 20px 0;
         padding: 20px;
+        background-color: #f1f1f1;
 
         .img-container {
           display: flex;
           justify-content: space-between;
           align-items: center;
 
+          > h3 {
+            color: rgb(54, 54, 54);
+          }
 
           > img {
             width: 25px;
           }
+        }
+
+        > p {
+          color: rgb(80, 80, 80)
         }
 
         > hr {

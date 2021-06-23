@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { FormEvent, useState } from 'react';
 import { useParams } from 'react-router-dom'
 
-import logoImg from '../Assets/images/logo.svg';
+import logoImg from '../Assets/images/Vector.svg';
 
 import { Button } from '../Components/Button';
 import { RoomCode } from '../Components/RoomCode';

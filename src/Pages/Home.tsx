@@ -1,8 +1,8 @@
 import { useHistory } from 'react-router-dom'
 import { FormEvent, useState } from 'react';
 
-import illustrationImg from '../Assets/images/illustration.svg'
-import logoImg from '../Assets/images/logo.svg';
+import illustrationImg from '../Assets/images/ilu.svg'
+import logoImg from '../Assets/images/Vector.svg';
 import googleIconImg from '../Assets/images/google-icon.svg';
 
 import { database } from '../Services/firebase';
