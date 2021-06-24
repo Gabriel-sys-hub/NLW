@@ -18,6 +18,7 @@ export function Question({
   return (
       <div className="question">
         <p>{ content }</p>
+        <hr />
         <footer>
           <div className="user-info">
             <img src={ author.avatar } alt={ author.name } />

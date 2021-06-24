@@ -68,7 +68,7 @@ Rocketseat - NLW 06 - React JS
 <div align="center">
   <h2 align="center"
   >
-   Aula 03 - Landing;
+   Aula 04 - Landing;
    </h2>
   Conceitos abordados:
 
