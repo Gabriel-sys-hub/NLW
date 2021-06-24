@@ -33,7 +33,7 @@
 
       span {
         margin-left: 16px;
-        background: #e559f9;
+        background: #318d5c;
         border-radius: 9999px;
         padding: 8px 16px;
         color: #FFF;
@@ -46,10 +46,10 @@
       textarea {
         width: 100%;
         border: 0;
+        color: white;
         padding: 16px;
         border-radius: 8px;
-        background: #fefefe;
-        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+        background: #333333;
         resize: vertical;
         min-height: 130px;
       }
@@ -86,7 +86,7 @@
           button {
             background: transparent;
             border: 0;
-            color: #835AFD;
+            color: #318d5c;
             text-decoration: underline;
             font-size: 14px;
             font-weight: 500;
@@ -95,40 +95,9 @@
         }
       }
     }
-    .all-questions {
-      padding: 25px;
-      border-radius: 5px;
-      margin: 20px;
-
-      .question-container {
-        border: solid 1px rgba(250, 250, 250, 0.294);
-        border-radius: 5px;
-        margin: 20px 0;
-        padding: 20px;
-        background-color: #f1f1f1;
-
-        .img-container {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-
-          > h3 {
-            color: rgb(54, 54, 54);
-          }
-
-          > img {
-            width: 25px;
-          }
-        }
-
-        > p {
-          color: rgb(80, 80, 80)
-        }
-
-        > hr {
-          margin: 20px 0;
-        }
-      }
+    .question-list {
+      margin-top: 32px;
     }
+
   }
 }

@@ -56,5 +56,20 @@ Rocketseat
 - [X] Criando nova Pergunta;
 - [X] Consumindo perguntas do Firebase;
 - [X] "Ouvindo" novas perguntas;
-- [ ] Criando hook "useRoom";
+</div>
+
+<div align="center">
+  <h2 align="center"
+  >
+   Aula 03 - In Orbit
+   </h2>
+  Conceitos abordados:
+
+- [X] Estrutura das Perguntas;
+- [X] Criando hook ( "Use Room ");
+- [X] Criação de Pagina (Admin)
+- [X] Funcionalidade de Like;
+- [X] Remoção de Pergunta;
+- [X] Encerrar as Salas;
+
 </div>
