@@ -33,7 +33,7 @@ export function AdmRoom() {
       endedAt: new Date(),
     })
 
-    history.push('/')
+    history.push('/');
   }
 
   async function handleDeleteQuestion(questionId: string) {
