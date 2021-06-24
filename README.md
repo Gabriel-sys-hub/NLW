@@ -1,9 +1,16 @@
 <h1 align="center">
-Rocketseat
+Rocketseat - NLW 06 - React JS
 </h1>
 
 <h1 align="center">
     <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://res.cloudinary.com/practicaldev/image/fetch/s--thEbyjLu--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4qa1g2dsx1hre7hjjlze.png" width="250px" />
+</h1>
+
+<h1 align="center">
+    <img alt="NextLevelWeek" title="#NextLevelWeek" src="../letmeask/src/Assets/examples/1.png" width="1000px" />
+</h1>
+<h1 align="center">
+    <img alt="NextLevelWeek" title="#NextLevelWeek" src="../letmeask/src/Assets/examples/2.png" width="1000px" />
 </h1>
 
 
@@ -61,7 +68,7 @@ Rocketseat
 <div align="center">
   <h2 align="center"
   >
-   Aula 03 - In Orbit
+   Aula 03 - Landing;
    </h2>
   Conceitos abordados:
 
