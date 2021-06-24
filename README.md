@@ -6,12 +6,12 @@ Rocketseat - NLW 06 - React JS
     <img alt="NextLevelWeek" title="#NextLevelWeek" src="https://res.cloudinary.com/practicaldev/image/fetch/s--thEbyjLu--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4qa1g2dsx1hre7hjjlze.png" width="250px" />
 </h1>
 
-<h1 align="center">
-    <img alt="NextLevelWeek" title="#NextLevelWeek" src="../letmeask/src/Assets/examples/1.png" width="1000px" />
-</h1>
-<h1 align="center">
-    <img alt="NextLevelWeek" title="#NextLevelWeek" src="../letmeask/src/Assets/examples/2.png" width="1000px" />
-</h1>
+![Captura de tela de 2021-06-24 10-25-05](https://user-images.githubusercontent.com/77814658/123271516-4c69ee80-d4d7-11eb-9f53-35a4d79271cd.png)
+
+
+![Captura de tela de 2021-06-24 10-25-45](https://user-images.githubusercontent.com/77814658/123271519-4d9b1b80-d4d7-11eb-930e-807e30e43ccc.png)
+
+
 
 
 <div align="center">
