@@ -6,18 +6,15 @@
   aside {
     flex: 7;
 
-    background-color: #835afd;
+    background-color: #318d5c;
     color: #fff;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 
     padding: 120px 80px;
-
-    img {
-      max-width: 320px;
-    }
 
     strong {
       font: 700 36px 'Poppins', sans-serif;
@@ -53,6 +50,7 @@
 
     > img {
       align-self: center;
+      width: 220px;
     }
 
     form {
