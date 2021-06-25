@@ -10,8 +10,6 @@ import { useAuth } from '../Hooks/useAuth';
 import { useRoom } from '../Hooks/useRoom';
 import { database } from '../Services/firebase';
 
-import '../Styles/room.scss';
-
 type RoomParams = {
   id: string;
 }
@@ -101,8 +99,11 @@ export function Room() {
               key={ question.id }
               author={ question.author }
               content={ question.content }
+              isHighlighted={ question.isHighlighted }
+              isAnswered={ question.isAnswered }
             >
-              <button
+              { !question.isAnswered && (
+                <button
                 className={`like-button ${ question.likeId ? 'liked' : ''}`}
                 type="button"
                 aria-label="Marcar como gostei"
@@ -114,6 +115,7 @@ export function Room() {
                 </svg>
 
               </button>
+              )}
             </Question>
           ))}
         </div>

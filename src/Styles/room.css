@@ -1,0 +1,28 @@
+@media only screen and (max-width: 768px) {
+  #page-room header .content > img {
+    display: none;
+  }
+
+  #page-room header {
+    display: flex;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .question {
+    width: 90vw;
+  }
+  
+  .question footer .user-info span {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    margin: 0;
+ }
+} 
