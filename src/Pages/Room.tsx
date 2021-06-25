@@ -10,8 +10,6 @@ import { useAuth } from '../Hooks/useAuth';
 import { useRoom } from '../Hooks/useRoom';
 import { database } from '../Services/firebase';
 
-import '../Styles/room.scss';
-
 type RoomParams = {
   id: string;
 }

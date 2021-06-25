@@ -1,3 +1,9 @@
+.light {
+  background-color: #e2e2e2;
+  height: 100vh;
+}
+
+
 #page-auth {
   display: flex;
   align-items: stretch;
@@ -51,6 +57,10 @@
     > img {
       align-self: center;
       width: 220px;
+    }
+
+    > label {
+      align-self: center;
     }
 
     form {
@@ -140,3 +150,9 @@
     }
   }
 }
+
+@media only screen and (max-width: 768px) {
+  #page-auth aside {
+    display: none;
+  }
+} 

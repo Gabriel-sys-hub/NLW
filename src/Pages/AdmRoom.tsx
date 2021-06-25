@@ -14,11 +14,6 @@ import { RoomCode } from '../Components/RoomCode';
 
 import { useRoom } from '../Hooks/useRoom';
 
-import '../Styles/room.scss';
-import '../Styles/admin.scss'
-import '../Styles/question.scss'
-
-
 type RoomParams = {
   id: string;
 }

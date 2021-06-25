@@ -9,13 +9,14 @@ import { database } from '../Services/firebase';
 
 import { Button } from '../Components/Button';
 import { useAuth } from '../Hooks/useAuth';
-
-import '../Styles/auth.scss';
+import { useTheme } from '../Hooks/useTheme';
 
 export function Home() {
   const history = useHistory();
   const { user, signInWithGoogle } = useAuth();
   const [roomCode, setRoomCode] = useState('');
+
+  const { theme, toggleTheme } = useTheme();
 
   async function handleCreateRoom() {
     if (!user) {
@@ -48,7 +49,7 @@ export function Home() {
   }
 
   return (
-    <div id="page-auth">
+    <div id="page-auth" className={ theme }>
       <aside>
         <img src={illustrationImg} alt="Ilustração simbolizando perguntas e respostas" />
         <strong>Crie salas de Q&amp;A ao-vivo</strong>
@@ -72,6 +73,11 @@ export function Home() {
             <Button type="submit">
               Entrar na sala
             </Button>
+          <label className="switch">
+            <input onClick={ toggleTheme } type="checkbox" />
+            <span className="slider round"></span>
+            { theme }
+          </label>
           </form>
         </div>
       </main>

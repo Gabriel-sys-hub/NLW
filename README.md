@@ -80,3 +80,20 @@ Rocketseat - NLW 06 - React JS
 - [X] Encerrar as Salas;
 
 </div>
+
+<div align="center">
+  <h2 align="center"
+  >
+   Aula 05 - Surfase Exploration;
+   </h2>
+  Conceitos abordados:
+
+- [X] HTML e CSS de destaque e respondida;
+- [X] Dar destaque na pergunta;
+- [X] Marcar como respondida;
+- [X] Hospedando Projeto;
+  
+- [ ] Responsividade;
+- [ ] Toggle pra tema dark e light;
+
+</div>
