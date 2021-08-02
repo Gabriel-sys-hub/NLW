@@ -18,7 +18,7 @@ import './Styles/question.scss'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/NLW">
       <ThemeContextProvider>
         <AuthContextProvider>
           <Switch>
