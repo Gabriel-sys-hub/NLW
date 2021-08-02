@@ -18,6 +18,8 @@ export function Home() {
 
   const { theme, toggleTheme } = useTheme();
 
+  console.log(toggleTheme)
+
   async function handleCreateRoom() {
     if (!user) {
       await signInWithGoogle()
